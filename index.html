@@ -9,10 +9,456 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- style css -->
-    <link rel="stylesheet" href=".css">
+    <link rel="stylesheet" href="style.css">
     <title>Honda-cbr</title>
 </head>
 <body>
+
+  <!-- header -->
+
+    <header class="header-section">
+        <div class="container">
+
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white fs-5" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form class="">
+                  <button class="btn btn-lg btn-primary fs-5">login</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- banner -->
+
+            <div class="row d-flex align-items-center mt-5">
+                <div class="col-lg-6 col-md-12 text-white banner-content">
+                  <span class="">Computer-controlled digital transistorized with electronic advance<span>
+                  <h1 class="mt-3">Honda CBR 300R</h1>
+                  <p class="mt-3 mb-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                  <!-- start modal -->
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                  </button>
+
+                  <!-- Modal -->
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h2 class="modal-title text-info" id="exampleModalLabel">Your Dream Bike is Here !</h2>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                          <img src="img/modal.jpg" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                  <img src="img/header-bike.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- main section -->
+
+    <main class="main-section pt-5">
+      <section class="feature-section">
+        <div class="container">
+          <div class="feature-bike">
+            <div class="section-title text-center">
+              <h1>Fetured Bikes 2021</h1>
+              <p>Best bike collection</p>
+              <div class="u-line"></div>
+            </div>
+          </div>
+  
+          <div class="row gx-5 mt-5 text-center py-4">
+  
+            <div class="col-lg-4 col-md-6">
+              <div class="feature-bike-img">
+                <img class="w-75" src="img/gray-bike.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="feature-bike-img">
+                <img class="w-75" src="img/feature-bike.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="feature-bike-img">
+                <img class="w-75" src="img/gray-bike.jpg" alt="">
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+      <!--latest News  -->
+
+      <section class="latest-news">
+
+       <div class="container">
+        <div class="section-title text-center mt-5 mb-5">
+          <h1>Latest News</h1>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 p-3">
+              <img src="img/bike-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bolder">Ducati XDIAVEL S-73</h5>
+                <p class="card-text lh-lg fw-bolder fs-6 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-outline-success btn-warning w-50 py-3 fs-6 fw-bolder  ">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 p-3">
+              <img src="img/bike-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bolder">Motorcycles & Scooters</h5>
+                <p class="card-text lh-lg fw-bolder fs-6 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-outline-success btn-warning w-50 py-3 fs-6 fw-bolder  ">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 p-3">
+              <img src="img/bike-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bolder">2021 Honda CBR500R</h5>
+                <p class="card-text lh-lg fw-bolder fs-6 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-outline-success btn-warning w-50 py-3 fs-6 fw-bolder ">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+
+      <!-- our popular video -->
+
+      <section class="popular-video">
+        <div class="container">
+          <div class="section-title text-center mt-5 mb-5">
+            <h1>Our <span class="h1-2nd">Popular Video</span></h1>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q6ptOfYHtB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fehV52dFMo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YEEltTlLnF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DxH62oISyZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/cFJILnSVbVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card h-100">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3LxTKXeArt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+
+      <!-- happy clint -->
+
+      <section class="clint py-5">
+        <div class="container">
+          <div class="happy-clint">
+            <div class="section-title text-center mt-5 mb-5">
+              <h1>Happy <span class="h1-2nd">Clients says</span></h1>
+            </div>
+  
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+  
+              <div class="col-lg-4 col-md-6">
+                <div class="card h-100 p-5 text-center clint-card">
+                  <img src="img/face1.jpg" class="card-img-top rounded-circle w-75 mx-auto" alt="...">
+                  <div class="card-body">
+                    
+                    <p class="card-text my-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <div class="card-menu">
+                      <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="far fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <h4 class="card-title fw-bolder fs-5 my-3">Joe Baiden</h4>
+                    <h5 class="card-title fw-bolder fs-6">President</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card h-100 p-5 text-center clint-card">
+                  <img src="img/face2.jpg" class="card-img-top rounded-circle w-75 mx-auto" alt="...">
+                  <div class="card-body">
+                    
+                    <p class="card-text my-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <div class="card-menu">
+                      <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="far fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <h4 class="card-title fw-bolder fs-5 my-3">Sheikh Hasina</h4>
+                    <h5 class="card-title fw-bolder fs-6">President</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="card h-100 p-5 text-center clint-card">
+                  <img src="img/face3.jpg" class="card-img-top rounded-circle w-75 mx-auto" alt="...">
+                  <div class="card-body">
+                    
+                    <p class="card-text my-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <div class="card-menu">
+                      <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="fas fa-star"></i></li>
+                        <li class="ms-2 fs-4"><i class="far fa-star"></i></li>
+                      </ul>
+                    </div>
+                    <h4 class="card-title fw-bolder fs-5 my-3">Kim Jong-un</h4>
+                    <h5 class="card-title fw-bolder fs-6">President</h5>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>  
+
+        </div>
+
+      </section>
+      <!-- frequently-question -->
+
+      <section class="frequently-question">
+        <div class="container">
+          <div class="section-title text-center mt-5 pb-5">
+            <h1>Frequently Asked <span class="h1-2nd">Questions</span></h1>
+          </div>
+
+          <div class="row gx-5">
+            <div class="col-lg-6">
+              <div class="question-img">
+                <img src="img/faq.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="question-content ms-3 mt-5">
+
+                <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+                  <div class="accordion-item question-content-item my-4">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h4>What are the most important things I should
+                          know about riding a bike?</h4>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. <code> Get in the mindset of “driving”</code>  your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item question-content-item my-4">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h4>How can I tell if my helmet is old and I need a 
+                          new one?</h4>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. <code> Get in the mindset of “driving”</code>  your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</div>
+                    </div>
+                  </div>
+  
+                  <div class="accordion-item question-content-item my-4">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h4>My bike has been in storage is it safe to ride?</h4>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. <code> Get in the mindset of “driving”</code>  your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</div>
+                    </div>
+                  </div>
+  
+                  <div class="accordion-item question-content-item my-4">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h4>My bike has been in storage is it safe to ride?</h4>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. <code> Get in the mindset of “driving”</code>  your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- contact -->
+
+      <section class="contact bg-secondary py-5 mt-3">
+        <div class="container">
+          <div class="section-title text-center mt-5 pb-5">
+            <h1> Contact </h1>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="contact-map mt-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463878.7165357887!2d90.16922069894039!3d24.7250787508516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564fbe84f6cbe1%3A0x9fdd8aa3d42ccc3e!2sMymensingh%20District!5e0!3m2!1sen!2sbd!4v1627549226975!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-form mt-3 ms-3">
+                <form action="">
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fs-5">Your Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="write your name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label fs-5">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label fs-5"> Your passward</label>
+                    <input type="password" class="form-control" id="password" placeholder="type your password">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fs-5">Comment</label>
+                    <textarea placeholder="your message" class="form-control py-4" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footert -->
+
+    <footer>
+      <div class="footer-section py-5 text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="footer-1st-menu">
+                <ul class="d-flex list-unstyled">
+                  <li><a class="text-decoration-none text-white fs-5 ms-4" href="">Download Now</a></li>
+                  <li><a class="text-decoration-none text-white fs-5 ms-4"  href="">License</a></li>
+                </ul>
+              </div>
+              <div class="footer-2nd-menu">
+                <ul class="d-flex list-unstyled flex-wrap">
+                  <li><a class="text-decoration-none text-white fs-5 ms-4"  href="">About</a></li>
+                  <li><a class="text-decoration-none text-white fs-5 ms-4"  href="">Features</a></li>
+                  <li><a class="text-decoration-none text-white fs-5 ms-4"  href="">Pricing</a></li>
+                  <li><a class="text-decoration-none text-white fs-5 ms-4"  href="">Careers</a></li>
+                  <li><a class="text-decoration-none text-white fs-5 ms-4"  href="">Help</a></li>
+                  <li><a class="text-decoration-none text-white fs-5 ms-4"  href="">Privacy Policy</a></li>
+
+                </ul>
+                <p class="ms-4">© 2021 bike. All rights reserved</p>
+              </div>
+              <div class="footer-text ">
+                
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+
+              <div class="footer-logo text-center">
+                <h3 class="mb-3">Get the App</h3>
+                <img class="w-25 " src="img/footer-logo2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 

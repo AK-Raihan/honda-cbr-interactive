@@ -1,2 +1,106 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* defualt */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bona Nova', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+
+.header-section {
+    background: #264653;
+}
+
+/* banner */
+
+.banner-content {}
+
+.banner-content span {
+    font-size: 20px;
+    color: rgb(163, 161, 161);
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.banner-content p {
+    font-size: 22px;
+    line-height: 26px;
+    color: rgb(194, 186, 186);
+}
+
+/* main */
+
+.section-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.section-title p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.u-line {
+    width: 50px;
+    height: 2px;
+    background: indianred;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 0;
+}
+
+/* happy clint */
+
+.h1-2nd {
+    color: #E76F51;
+}
+
+.clint-card {}
+
+.clint-card p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #6C6C6C
+}
+
+.card-menu {}
+
+.clint-card h4 {
+    color: #23A6F0;
+}
+
+.card-menu ul li {
+    color: #E76F51;
+}
+
+/* question */
+
+.question-content {
+    border: 2px solid #ddd;
+}
+
+.question-content-item {
+    border: 1px solid #ddd;
+}
+
+/* footer */
+
+.footer-section {
+    background: #0B0D17;
+}
