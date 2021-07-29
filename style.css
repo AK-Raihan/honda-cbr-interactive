@@ -22,9 +22,11 @@ img {
     background: #264653;
 }
 
-/* banner */
+.main-header img {
+    width: 100px;
+}
 
-.banner-content {}
+/* banner */
 
 .banner-content span {
     font-size: 20px;
@@ -71,15 +73,11 @@ img {
     color: #E76F51;
 }
 
-.clint-card {}
-
 .clint-card p {
     font-size: 22px;
     font-weight: 500;
     color: #6C6C6C
 }
-
-.card-menu {}
 
 .clint-card h4 {
     color: #23A6F0;
@@ -104,3 +102,5 @@ img {
 .footer-section {
     background: #0B0D17;
 }
+
+/* happy end */
